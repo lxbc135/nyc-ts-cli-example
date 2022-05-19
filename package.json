@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "babel": "babel src/index.ts --out-file dist/bundle.js",
-    "coverage": "nyc node dist/bundle.js",
+    "cover": "nyc node dist/bundle.js",
     "test": "jest"
   },
   "author": "lxbc135",
